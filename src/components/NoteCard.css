@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.delete {
+    height: 40px;
+    width: 100px;
+    background-color: brown;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 3px solid brown;
+    border-radius: 30px;
+    transform: translateY(15px);
+}
+
+.delete:hover {
+    background-color: transparent;
+    color: brown;
+}
+
+.temp {
+    font-size: 1.5rem;
+}
